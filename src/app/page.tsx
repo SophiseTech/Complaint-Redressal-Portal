@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className='p-8'>
+      <div className='p-8 pt-[100px]'>
         <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg p-6 mt-10">
           <div className="flex items-center justify-center mb-5">
             <img src="/logo.png" alt="" className='w-3/4' />

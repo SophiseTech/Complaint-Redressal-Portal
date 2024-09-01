@@ -64,7 +64,7 @@ export default function AdminPage() {
     return <p>Authenticating...</p>
   }
   return (
-    <div className="container mx-auto p-5">
+    <div className="container mx-auto p-5 pt-[100px]">
       <h1 className="text-3xl font-bold mb-6 text-white pt-5">Admin - Complaints</h1>
       {loading ? (
         <p>Loading complaints...</p>

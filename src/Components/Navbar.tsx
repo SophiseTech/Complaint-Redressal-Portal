@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 left-0 right-0 bg-white text-white shadow-lg p-4 flex justify-between items-center z-50">
+    <nav className="sticky top-0 left-0 right-0 bg-white text-white shadow-lg p-4 flex justify-between items-center z-50 navbar">
       <div className="text-2xl font-bold text-blue-500">
         {/* Logo or Title */}
         KSU Portal
