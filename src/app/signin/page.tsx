@@ -23,6 +23,8 @@ function Page(): JSX.Element {
     if (error) {
       // Display and log any sign-in errors
       console.log(error);
+      alert("Invalid Username or Password!")
+      setLoading(false)
       return;
     }
 
