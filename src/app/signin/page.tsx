@@ -29,7 +29,7 @@ function Page(): JSX.Element {
     // Sign in successful
     console.log(result);
     if (emails.includes(email)) {
-      router.push("/admin");
+      return router.push("/admin");
 
     }
     setLoading(false)
